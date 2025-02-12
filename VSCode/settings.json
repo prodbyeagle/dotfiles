@@ -1,0 +1,242 @@
+//* @prodbyeagle Config | 12.02.2025 - 14:39 |
+{
+  //? ================================
+  //? Workbench Settings
+  //? ================================
+  "workbench.settings.editor": "json",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tips.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.tree.indent": 5,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.showTabs": "none",
+  "workbench.colorTheme": "Catppuccin Noctis Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.activityBar.location": "default",
+  "workbench.statusBar.visible": false,
+
+  //? ================================
+  //? Window Settings
+  //? ================================
+  "window.titleBarStyle": "custom",
+  "window.confirmSaveUntitledWorkspace": false,
+  "window.title": "Coding in ${dirty}${activeEditorShort} | @prodbyeagle",
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+
+  //? ================================
+  //? Editor Settings
+  //? ================================
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.scrollBeyondLastLine": false,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.fastScrollSensitivity": 6,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.stickyScroll.enabled": false,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 23,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "editor.inlineSuggest.fontFamily": "Geist",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fit",
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+
+  //? ================================
+  //? Diff Editor Settings
+  //? ================================
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.experimental.showMoves": true,
+
+  //? ================================
+  //? Terminal Settings
+  //? ================================
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.fontFamily": "Geist Mono",
+  "terminal.integrated.fontSize": 15,
+
+  //? ================================
+  //? Git Settings
+  //? ================================
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.branchProtectionPrompt": "alwaysCommit",
+  "git.openRepositoryInParentFolders": "never",
+  "git.autofetch": "all",
+
+  //? ================================
+  //? Explorer Settings
+  //? ================================
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": false,
+
+  //? ================================
+  //? Files Settings
+  //? ================================
+  "files.exclude": {
+    "**/.git": true,
+    "**/.venv": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/package-lock.json": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/.env.example": true
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  //? ================================
+  //? JavaScript / TypeScript Settings
+  //? ================================
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //? ================================
+  //? Live Server Settings
+  //? ================================
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  //? ================================
+  //? Prettier Settings
+  //? ================================
+  "prettier.tabWidth": 4,
+  "prettier.bracketSameLine": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": true,
+  "prettier.bracketSpacing": true,
+
+  //? ================================
+  //? APC Settings (currently dead)
+  //? ================================
+  // "apc.imports": [
+  //   {
+  //     "rel": "stylesheet",
+  //     "href": "https://fonts.googleapis.com/css?family=Geist"
+  //   }
+  // ],
+  // "apc.menubar.compact": true,
+  // "apc.statusBar": {
+  //   "position": "editor-top",
+  //   "height": 28,
+  //   "fontSize": 12
+  // },
+  // "apc.stylesheet": {
+  //   ".sidebar > .composite": "height: 12px !important",
+  //   ".title-label": "display: block !important",
+  //   ".title-actions": "display: block !important",
+  //   ".inline-tabs-placeholder": "display: none !important"
+  // },
+  // "apc.font.family": "Geist",
+  // "apc.monospace.font.family": "Geist Mono",
+
+  //? ================================
+  //? VSCord Settings
+  //? ================================
+  "vscord.status.buttons.button1.active.enabled": false,
+  "vscord.status.details.text.idle": "😴 | Sleeping...",
+  "vscord.status.details.text.notInFile": "❌ | AFK!",
+  "vscord.status.details.text.editing": "📜 | {workspace}",
+  "vscord.status.details.text.viewing": "😮‍💨 | Im in {workspace}",
+  "vscord.status.state.text.editing": "✍️ | {file_name}{file_extension}",
+  "vscord.status.state.text.debugging": "🐞 | {workspace}",
+  "vscord.status.state.text.viewing": "👀 | {file_name}{file_extension}",
+  "vscord.app.name": "Custom",
+  "vscord.app.id": "1257116551069564960",
+  "vscord.status.problems.enabled": false,
+  "vscord.status.image.small.notInFile.text": "😴 Snoozin...",
+  "vscord.status.idle.timeout": 900,
+
+  //? ================================
+  //? Draw Settings
+  //? ================================
+  "draw.folder.structure.exclude": [
+    "**/node_modules",
+    "**/.git",
+    "**/.idea",
+    "**/.vercel",
+    "**/.next",
+    "**/dist",
+    "**/.venv"
+  ],
+  "draw.folder.structure.style": "EmojiMinimalist",
+
+  //? ================================
+  //? Security Settings
+  //? ================================
+  "security.workspace.trust.untrustedFiles": "open",
+
+  //? ================================
+  //? Colorize Settings
+  //? ================================
+  "colorize.include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "**/*.styl"
+  ],
+
+  //? ================================
+  //? Outdated Extension Settings
+  //? ================================
+  "outdated.enabled": true,
+  "outdated.badges.enabled": true,
+
+  //? ================================
+  //? Indent Rainbow Settings
+  //? ================================
+  "indentRainbow.indicatorStyle": "classic",
+  "indentRainbow.updateDelay": 10,
+
+  //? ================================
+  //? Update Settings
+  //? ================================
+  "update.mode": "none"
+}
