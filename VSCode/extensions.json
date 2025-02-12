@@ -1,0 +1,228 @@
+{
+	"extensionList": [
+		{
+			"id": "aaron-bond.better-comments",
+			"uuid": "7a0110bb-231a-4598-aa1b-0769ea46d28b",
+			"name": "better-comments",
+			"publisher": "aaron-bond",
+			"version": "3.0.2"
+		},
+		{
+			"id": "acoreyj.restart-ts-eslint-server",
+			"uuid": "894cae5f-ce46-414b-8ca7-878ff3941173",
+			"name": "restart-ts-eslint-server",
+			"publisher": "acoreyj",
+			"version": "1.0.5"
+		},
+		{
+			"id": "alexdauenhauer.catppuccin-noctis",
+			"uuid": "93848513-a57c-4830-bf1b-a60705cfca5d",
+			"name": "catppuccin-noctis",
+			"publisher": "alexdauenhauer",
+			"version": "3.1.5"
+		},
+		{
+			"id": "be5invis.vscode-custom-css",
+			"uuid": "1b160753-ae5e-42bb-82ad-d115ce5c10f4",
+			"name": "vscode-custom-css",
+			"publisher": "be5invis",
+			"version": "7.4.2"
+		},
+		{
+			"id": "bradlc.vscode-tailwindcss",
+			"uuid": "4db62a7c-7d70-419c-96d2-6c3a4dc77ea5",
+			"name": "vscode-tailwindcss",
+			"publisher": "bradlc",
+			"version": "0.14.3"
+		},
+		{
+			"id": "Catppuccin.catppuccin-vsc-icons",
+			"uuid": "625b9abd-dfac-405b-bf34-e65f46e2f22f",
+			"name": "catppuccin-vsc-icons",
+			"publisher": "Catppuccin",
+			"version": "1.17.0"
+		},
+		{
+			"id": "christian-kohler.npm-intellisense",
+			"uuid": "dff6b801-247e-40e9-82e8-8c9b1d19d1b8",
+			"name": "npm-intellisense",
+			"publisher": "christian-kohler",
+			"version": "1.4.5"
+		},
+		{
+			"id": "dbaeumer.vscode-eslint",
+			"uuid": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
+			"name": "vscode-eslint",
+			"publisher": "dbaeumer",
+			"version": "3.0.10"
+		},
+		{
+			"id": "denoland.vscode-deno",
+			"uuid": "91881318-cfd0-4905-adb7-f4e431ca1ead",
+			"name": "vscode-deno",
+			"publisher": "denoland",
+			"version": "3.43.3"
+		},
+		{
+			"id": "eamodio.gitlens",
+			"uuid": "4de763bd-505d-4978-9575-2b7696ecf94e",
+			"name": "gitlens",
+			"publisher": "eamodio",
+			"version": "16.3.0"
+		},
+		{
+			"id": "esbenp.prettier-vscode",
+			"uuid": "96fa4707-6983-4489-b7c5-d5ffdfdcce90",
+			"name": "prettier-vscode",
+			"publisher": "esbenp",
+			"version": "11.0.0"
+		},
+		{
+			"id": "fabiospampinato.vscode-outdated",
+			"uuid": "ff7f659c-88dc-4392-9941-3de9d089e3fd",
+			"name": "vscode-outdated",
+			"publisher": "fabiospampinato",
+			"version": "1.2.0"
+		},
+		{
+			"id": "formulahendry.auto-rename-tag",
+			"uuid": "6e440e71-8ed9-4f25-bb78-4b13096b8a03",
+			"name": "auto-rename-tag",
+			"publisher": "formulahendry",
+			"version": "0.1.10"
+		},
+		{
+			"id": "GitHub.copilot",
+			"uuid": "23c4aeee-f844-43cd-b53e-1113e483f1a6",
+			"name": "copilot",
+			"publisher": "GitHub",
+			"version": "1.270.0"
+		},
+		{
+			"id": "GitHub.copilot-chat",
+			"uuid": "7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f",
+			"name": "copilot-chat",
+			"publisher": "GitHub",
+			"version": "0.23.2"
+		},
+		{
+			"id": "jeferwang.vscode-setting-export",
+			"uuid": "5fb44da2-d0b9-4343-adf0-cb3a7e110994",
+			"name": "vscode-setting-export",
+			"publisher": "jeferwang",
+			"version": "0.0.6"
+		},
+		{
+			"id": "jmkrivocapich.drawfolderstructure",
+			"uuid": "2631b1a4-0c54-406b-bf85-2c58a0e327cd",
+			"name": "drawfolderstructure",
+			"publisher": "jmkrivocapich",
+			"version": "1.4.0"
+		},
+		{
+			"id": "kamikillerto.vscode-colorize",
+			"uuid": "445ba381-f232-4150-9056-d790bd76d698",
+			"name": "vscode-colorize",
+			"publisher": "kamikillerto",
+			"version": "0.16.0"
+		},
+		{
+			"id": "LeonardSSH.vscord",
+			"uuid": "20675c06-f272-4cc8-8611-83ebb5583c5a",
+			"name": "vscord",
+			"publisher": "LeonardSSH",
+			"version": "5.2.13"
+		},
+		{
+			"id": "MinecraftCommands.syntax-mcfunction",
+			"uuid": "e03944ff-2185-4ada-a557-9a1038ed7c02",
+			"name": "syntax-mcfunction",
+			"publisher": "MinecraftCommands",
+			"version": "1.0.1"
+		},
+		{
+			"id": "ms-vscode.powershell",
+			"uuid": "40d39ce9-c381-47a0-80c8-a6661f731eab",
+			"name": "powershell",
+			"publisher": "ms-vscode",
+			"version": "2025.0.0"
+		},
+		{
+			"id": "oderwat.indent-rainbow",
+			"uuid": "eaa2127d-cb69-4ab9-8505-a60c9ee5f28b",
+			"name": "indent-rainbow",
+			"publisher": "oderwat",
+			"version": "8.3.1"
+		},
+		{
+			"id": "plibither8.remove-comments",
+			"uuid": "838d060e-1c47-4e05-b553-439c5b94fedc",
+			"name": "remove-comments",
+			"publisher": "plibither8",
+			"version": "1.2.2"
+		},
+		{
+			"id": "quentinguidee.gitignore-ultimate",
+			"uuid": "8f36c8b6-10fb-4f27-9876-9ddb2ebe92f8",
+			"name": "gitignore-ultimate",
+			"publisher": "quentinguidee",
+			"version": "0.3.0"
+		},
+		{
+			"id": "ritwickdey.LiveServer",
+			"uuid": "46cc5bbd-b098-4568-9b87-f91e07d26f2d",
+			"name": "LiveServer",
+			"publisher": "ritwickdey",
+			"version": "5.7.9"
+		},
+		{
+			"id": "rust-lang.rust-analyzer",
+			"uuid": "06574cb4-e5dc-4631-8174-a543a4533621",
+			"name": "rust-analyzer",
+			"publisher": "rust-lang",
+			"version": "0.3.2299"
+		},
+		{
+			"id": "SPGoding.datapack-language-server",
+			"uuid": "e292445f-672b-4c42-bb71-510fb88fcf8e",
+			"name": "datapack-language-server",
+			"publisher": "SPGoding",
+			"version": "4.5.8"
+		},
+		{
+			"id": "tamasfe.even-better-toml",
+			"uuid": "b2215d5f-675e-4a2b-b6ac-1ca737518b78",
+			"name": "even-better-toml",
+			"publisher": "tamasfe",
+			"version": "0.21.2"
+		},
+		{
+			"id": "tauri-apps.tauri-vscode",
+			"uuid": "53763e89-ec31-4d0c-b220-f714761180e5",
+			"name": "tauri-vscode",
+			"publisher": "tauri-apps",
+			"version": "0.2.9"
+		},
+		{
+			"id": "unifiedjs.vscode-mdx",
+			"uuid": "af8cfc85-cb72-45d0-bae2-9a98cd0c69f3",
+			"name": "vscode-mdx",
+			"publisher": "unifiedjs",
+			"version": "1.8.13"
+		},
+		{
+			"id": "usernamehw.errorlens",
+			"uuid": "9d8c32ab-354c-4daf-a9bf-20b633734435",
+			"name": "errorlens",
+			"publisher": "usernamehw",
+			"version": "3.23.0"
+		},
+		{
+			"id": "YoavBls.pretty-ts-errors",
+			"uuid": "1e149c89-8f97-447e-863d-1146f0ad1b70",
+			"name": "pretty-ts-errors",
+			"publisher": "YoavBls",
+			"version": "0.6.1"
+		}
+	]
+}
