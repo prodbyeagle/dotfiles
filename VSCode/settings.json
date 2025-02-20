@@ -1,22 +1,20 @@
-//* @prodbyeagle Config | 12.02.2025 - 14:39 |
+// @prodbyeagle Config | 12.02.2025 - 14:39 |
 {
   //? ================================
   //? Workbench Settings
   //? ================================
-  "workbench.settings.editor": "json",
-  "workbench.list.smoothScrolling": true,
-  "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": false,
-  "workbench.tips.enabled": false,
-  "workbench.sideBar.location": "right",
-  "workbench.editor.empty.hint": "hidden",
   "workbench.tree.indent": 5,
-  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
   "workbench.editor.showTabs": "none",
-  "workbench.colorTheme": "Catppuccin Noctis Mocha",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "catppuccin-mocha",
-  "workbench.activityBar.location": "default",
-  "workbench.statusBar.visible": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.colorTheme": "Catppuccin Noctis Mocha",
 
   //? ================================
   //? Window Settings
@@ -25,13 +23,8 @@
   "window.confirmSaveUntitledWorkspace": false,
   "window.title": "Coding in ${dirty}${activeEditorShort} | @prodbyeagle",
   "window.dialogStyle": "custom",
-  "window.menuBarVisibility": "compact",
   "window.commandCenter": false,
-
-  //? ================================
-  //? Editor Settings
-  //? ================================
-  "editor.inlineSuggest.suppressSuggestions": true,
+  "window.menuBarVisibility": "compact",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
@@ -50,16 +43,21 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 23,
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.inlineSuggest.syntaxHighlightingEnabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.fontFamily": "Geist Mono",
   "editor.inlayHints.fontFamily": "Geist Mono",
-  "editor.codeLensFontFamily": "Geist Mono",
   "editor.inlineSuggest.fontFamily": "Geist",
   "editor.minimap.renderCharacters": false,
   "editor.minimap.size": "fit",
   "editor.minimap.showSlider": "always",
   "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.codeLensFontSize": 12,
+  "editor.tokenColorCustomizations": {
+    "comments": "#a6e3a1"
+  },
 
   //? ================================
   //? Diff Editor Settings
@@ -131,6 +129,15 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   //? ================================
   //? Live Server Settings
@@ -178,8 +185,8 @@
   //? VSCord Settings
   //? ================================
   "vscord.status.buttons.button1.active.enabled": false,
-  "vscord.status.details.text.idle": "😴 | Sleeping...",
-  "vscord.status.details.text.notInFile": "❌ | AFK!",
+  "vscord.status.details.text.idle": "😴 | Idle...",
+  "vscord.status.details.text.notInFile": "🌌 | Void...",
   "vscord.status.details.text.editing": "📜 | {workspace}",
   "vscord.status.details.text.viewing": "😮‍💨 | Im in {workspace}",
   "vscord.status.state.text.editing": "✍️ | {file_name}{file_extension}",
@@ -236,7 +243,18 @@
   "indentRainbow.updateDelay": 10,
 
   //? ================================
+  //? Error Lens Settings
+  //? ================================
+  "errorLens.gutterIconSet": "emoji",
+  "errorLens.removeLinebreaks": false,
+
+  //? ================================
   //? Update Settings
   //? ================================
-  "update.mode": "none"
+  "update.mode": "manual",
+
+  //? ================================
+  //? Other Settings
+  //? ================================
+  "dependi.npm.enabled": false
 }
