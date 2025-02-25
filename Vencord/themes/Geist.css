@@ -1,0 +1,14 @@
+/**
+ * @name Geist Font
+ * @description Switch the Font to 'Geist' by Vercel.
+ * @author vercel / prodbyeagle
+ * @version 1.0.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+:root {
+    --font: 'Geist';
+    --font-primary: var(--font), Arial, sans-serif;
+    --font-display: var(--font), Arial, sans-serif;
+}

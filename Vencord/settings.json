@@ -5,7 +5,9 @@
         "autoUpdateNotification": true,
         "useQuickCss": false,
         "themeLinks": [],
-        "enabledThemes": [],
+        "enabledThemes": [
+            "Geist.css"
+        ],
         "enableReactDevtools": false,
         "frameless": false,
         "transparent": false,
@@ -380,10 +382,27 @@
             },
             "PinDMs": {
                 "enabled": true,
+                "pinnedDMs": "1118964384073527317,897844052999950356,925016829242515517",
                 "pinOrder": 0,
                 "sortDmsByNewestMessage": false,
                 "dmSectionCollapsed": false,
-                "canCollapseDmSection": false
+                "canCollapseDmSection": false,
+                "userBasedCategoryList": {
+                    "893759402832699392": [
+                        {
+                            "id": "oldPins",
+                            "name": "@psychiatrie",
+                            "color": 4732494,
+                            "channels": [
+                                "1118964384073527317",
+                                "897844052999950356",
+                                "925016829242515517"
+                            ],
+                            "collapsed": false
+                        }
+                    ],
+                    "1093444260491165777": []
+                }
             },
             "PlainFolderIcon": {
                 "enabled": false
@@ -779,7 +798,20 @@
             "HideMedia": {
                 "enabled": false
             }
-        }
+        },
+        "notifications": {
+            "timeout": 6899.999999999999,
+            "position": "bottom-right",
+            "useNative": "never",
+            "logLimit": 25
+        },
+        "cloud": {
+            "authenticated": false,
+            "url": "https://api.vencord.dev/",
+            "settingsSync": true,
+            "settingsSyncVersion": 1740525347772
+        },
+        "eagerPatches": false
     },
     "quickCss": ""
 }
