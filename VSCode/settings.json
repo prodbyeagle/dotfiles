@@ -1,5 +1,5 @@
 // @prodbyeagle Config | 12.02.2025 - 14:39 |
-// Update | 16.02.2025 - 07:02
+// Update | 02.03.2025 - 05:20
 
 {
   //? ================================
@@ -98,14 +98,19 @@
   //? ================================
   "files.exclude": {
     "**/.git": true,
+    "**/.vercel": true,
+    "**/.idea": true,
     "**/.venv": true,
     "**/node_modules": true,
     "**/.next": true,
     "**/.husky": true,
     "**/drizzle": true,
     "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
     "**/next-env.d.ts": true,
     "**/postcss.config.cjs": true,
+    "**/postcss.config.mjs": true,
+    "**/eslint.config.mjs": true,
     "**/.env.example": true
   },
   "files.autoSave": "afterDelay",
@@ -139,6 +144,9 @@
   },
   "[tailwindcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
   },
 
   //? ================================
@@ -186,17 +194,16 @@
   //? ================================
   //? VSCord Settings
   //? ================================
-  "vscord.status.buttons.button1.active.enabled": false,
-  "vscord.status.details.text.idle": "😴 | Idle...",
-  "vscord.status.details.text.notInFile": "🌌 | Void...",
-  "vscord.status.details.text.editing": "📜 | {workspace}",
-  "vscord.status.details.text.viewing": "😮‍💨 | Im in {workspace}",
-  "vscord.status.state.text.editing": "✍️ | {file_name}{file_extension}",
+  "vscord.status.details.text.idle": "😴 | Idle..",
+  "vscord.status.details.text.notInFile": "・Floating in the Void..",
+  "vscord.status.details.text.editing": "・{workspace}",
+  "vscord.status.details.text.viewing": "・Crashing out in {workspace}",
+  "vscord.status.state.text.editing": "・{file_name}{file_extension}",
   "vscord.status.state.text.debugging": "🐞 | {workspace}",
-  "vscord.status.state.text.viewing": "👀 | {file_name}{file_extension}",
+  "vscord.status.state.text.viewing": "・Inside {file_name}{file_extension}",
   "vscord.app.name": "Custom",
   "vscord.app.id": "1257116551069564960",
-  "vscord.status.problems.enabled": false,
+  "vscord.status.problems.enabled": true,
   "vscord.status.image.small.notInFile.text": "😴 Snoozin...",
   "vscord.status.idle.timeout": 900,
 
@@ -260,8 +267,5 @@
   //? Other Settings
   //? ================================
   "dependi.npm.enabled": false,
-  "redhat.telemetry.enabled": false,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  }
+  "redhat.telemetry.enabled": false
 }
