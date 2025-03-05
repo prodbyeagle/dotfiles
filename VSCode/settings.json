@@ -1,5 +1,5 @@
 // @prodbyeagle Config | 12.02.2025 - 14:39 |
-// Update | 02.03.2025 - 05:20
+// Update | 16.02.2025 - 07:02
 
 {
   //? ================================
@@ -17,21 +17,23 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.colorTheme": "Catppuccin Noctis Mocha",
+  "workbench.editor.enablePreview": false,
+  "workbench.productIconTheme": "bongocat",
 
   //? ================================
   //? Window Settings
   //? ================================
   "window.titleBarStyle": "custom",
   "window.confirmSaveUntitledWorkspace": false,
-  "window.title": "Coding in ${dirty}${activeEditorShort} | @prodbyeagle",
-  "window.dialogStyle": "custom",
+  "window.title": "${dirty}${activeEditorShort} ・ ${activeRepositoryName}",
+  "window.dialogStyle": "native",
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.scrollBeyondLastLine": false,
-  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.mouseWheelScrollSensitivity": 3,
   "editor.fastScrollSensitivity": 6,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -43,20 +45,21 @@
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.stickyScroll.enabled": false,
   "editor.fontSize": 16,
-  "editor.lineHeight": 23,
+  "editor.lineHeight": 28,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.inlineSuggest.syntaxHighlightingEnabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.fontFamily": "Geist Mono",
   "editor.inlayHints.fontFamily": "Geist Mono",
-  "editor.inlineSuggest.fontFamily": "Geist",
+  "editor.inlineSuggest.fontFamily": "Geist Mono",
   "editor.minimap.renderCharacters": false,
   "editor.minimap.size": "fit",
   "editor.minimap.showSlider": "always",
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.codeLensFontSize": 12,
+  "editor.codeLensFontFamily": "Geist Mono",
 
   //? ================================
   //? Diff Editor Settings
@@ -110,11 +113,10 @@
     "**/next-env.d.ts": true,
     "**/postcss.config.cjs": true,
     "**/postcss.config.mjs": true,
-    "**/eslint.config.mjs": true,
+    "**/eslint.config.mjs": false,
     "**/.env.example": true
   },
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 200,
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -144,9 +146,6 @@
   },
   "[tailwindcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
   },
 
   //? ================================
@@ -194,12 +193,10 @@
   //? ================================
   //? VSCord Settings
   //? ================================
-  "vscord.status.details.text.idle": "😴 | Idle..",
   "vscord.status.details.text.notInFile": "・Floating in the Void..",
   "vscord.status.details.text.editing": "・{workspace}",
   "vscord.status.details.text.viewing": "・Crashing out in {workspace}",
   "vscord.status.state.text.editing": "・{file_name}{file_extension}",
-  "vscord.status.state.text.debugging": "🐞 | {workspace}",
   "vscord.status.state.text.viewing": "・Inside {file_name}{file_extension}",
   "vscord.app.name": "Custom",
   "vscord.app.id": "1257116551069564960",
@@ -241,12 +238,6 @@
   ],
 
   //? ================================
-  //? Outdated Extension Settings
-  //? ================================
-  "outdated.enabled": true,
-  "outdated.badges.enabled": true,
-
-  //? ================================
   //? Indent Rainbow Settings
   //? ================================
   "indentRainbow.indicatorStyle": "classic",
@@ -255,17 +246,18 @@
   //? ================================
   //? Error Lens Settings
   //? ================================
-  "errorLens.gutterIconSet": "emoji",
-  "errorLens.removeLinebreaks": false,
+  "errorLens.removeLinebreaks": true,
+  "errorLens.gutterIconsEnabled": false,
+  "errorLens.messageMaxChars": 100,
+  "errorLens.fontStyleItalic": true,
+  "errorLens.decorations": {
+    "errorMessage": {
+      "textDecoration": ";border:1.2px dashed #e4545470;text-shadow:1px 1px 2px #e4545470;border-radius:0.4em;padding:0 0.5ch;"
+    }
+  },
 
   //? ================================
   //? Update Settings
   //? ================================
   "update.mode": "manual",
-
-  //? ================================
-  //? Other Settings
-  //? ================================
-  "dependi.npm.enabled": false,
-  "redhat.telemetry.enabled": false
 }
