@@ -1,5 +1,5 @@
 // @prodbyeagle Config | 12.02.2025 - 14:39 |
-// Update | 16.02.2025 - 07:02
+// Update | 06.03.2025 - 06:49
 
 {
   //? ================================
@@ -19,6 +19,8 @@
   "workbench.colorTheme": "Catppuccin Noctis Mocha",
   "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "bongocat",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
 
   //? ================================
   //? Window Settings
@@ -42,7 +44,7 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.horizontal": "visible",
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.stickyScroll.enabled": false,
   "editor.fontSize": 16,
   "editor.lineHeight": 28,
@@ -117,9 +119,6 @@
     "**/.env.example": true
   },
   "files.autoSave": "afterDelay",
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
 
   //? ================================
   //? JavaScript / TypeScript Settings
@@ -145,6 +144,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
@@ -260,4 +262,6 @@
   //? Update Settings
   //? ================================
   "update.mode": "manual",
+  "breadcrumbs.enabled": false,
+  "chat.commandCenter.enabled": false
 }
