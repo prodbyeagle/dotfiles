@@ -1,26 +1,52 @@
 {
-    "893792975761584139": [
-        {
-            "tooltip": "Psychiatrie Co-Owner..",
-            "badge": "https://kappa.lol/KN6xew"
-        }
-    ],
-    "1065030118491308082": [
-        {
-            "tooltip": "'ich habe keine freunde die was mit mir zocken wollen.'",
-            "badge": "https://kappa.lol/WFE5-N"
-        }
-    ],
-    "893759402832699392": [
-        {
-            "tooltip": "why are you stalking?",
-            "badge": "https://kappa.lol/AgFTUG"
-        }
-    ],
-    "1093444260491165777": [
-        {
-            "tooltip": "toter account, hat aber ein bätsch!",
-            "badge": "https://kappa.lol/xtmBqM"
-        }
-    ]
+	"893792975761584139": [
+		{
+			"tooltip": "der zweite schluck war mit Bier geschmickt",
+			"badge": "https://kappa.lol/KN6xew"
+		},
+		{
+			"tooltip": "sodla hodla fickdla",
+			"badge": "https://kappa.lol/5zrxA8"
+		},
+		{
+			"tooltip": "kb auf alles bin aber trotzdem da weil baum",
+			"badge": "https://kappa.lol/KN6xew"
+		},
+		{
+			"tooltip": "autismus gruppe = internat gruppe",
+			"badge": "https://kappa.lol/rcbUe-"
+		},
+		{
+			"tooltip": "al katra = alcatraz",
+			"badge": "https://kappa.lol/KN6xew"
+		}
+	],
+	"1065030118491308082": [
+		{
+			"tooltip": "'ich habe keine freunde die was mit mir zocken wollen.'",
+			"badge": "https://kappa.lol/WFE5-N"
+		},
+		{
+			"tooltip": "maximale highhöhe",
+			"badge": "https://kappa.lol/q-MdEq"
+		}
+	],
+	"893759402832699392": [
+		{
+			"tooltip": "why are you stalking?",
+			"badge": "https://kappa.lol/AgFTUG"
+		}
+	],
+	"1093444260491165777": [
+		{
+			"tooltip": "toter account, hat aber ein bätsch!",
+			"badge": "https://kappa.lol/xtmBqM"
+		}
+	],
+	"679335832305401856": [
+		{
+			"tooltip": "test 123",
+			"badge": "https://kappa.lol/TGm3-3"
+		}
+	]
 }
