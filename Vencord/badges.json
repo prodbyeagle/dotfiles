@@ -1,4 +1,18 @@
 {
+	"893759402832699392": [
+		{
+			"tooltip": "EagleCord User",
+			"badge": "https://kappa.lol/WTiY5"
+		},
+		{
+			"tooltip": "why are you stalking?",
+			"badge": "https://kappa.lol/km2f8D"
+		},
+		{
+			"tooltip": "read if gay",
+			"badge": "https://kappa.lol/ZKtZqV"
+		}
+	],
 	"893792975761584139": [
 		{
 			"tooltip": "EagleCord User",
@@ -17,56 +31,14 @@
 			"badge": "https://kappa.lol/AlUR3V"
 		}
 	],
-	"1156652268947525662": [
-		{
-			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "https://kappa.lol/xtmBqM"
-		}
-	],
 	"1065030118491308082": [
 		{
 			"tooltip": "EagleCord User",
 			"badge": "https://kappa.lol/WTiY5"
 		},
 		{
-			"tooltip": "ich mach des jetzt einstellen",
-			"badge": "https://kappa.lol/GuVvDv"
-		},
-		{
-			"tooltip": "read if gay",
-			"badge": "https://kappa.lol/ZKtZqV"
-		},
-		{
 			"tooltip": "Hartz IV Lampe",
 			"badge": "https://kappa.lol/Z_-e6j"
-		}
-	],
-	"679326075876278285": [
-		{
-			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "https://kappa.lol/xtmBqM"
-		}
-	],
-	"893759402832699392": [
-		{
-			"tooltip": "why are you stalking?",
-			"badge": "https://kappa.lol/km2f8D"
-		},
-		{
-			"tooltip": "EagleCord User",
-			"badge": "https://kappa.lol/WTiY5"
-		}
-	],
-	"1093444260491165777": [
-		{
-			"tooltip": "toter account, hat aber ein 'bätsch'!",
-			"badge": "https://kappa.lol/xtmBqM"
-		}
-	],
-	"773166395147157504": [
-		{
-			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "https://kappa.lol/xtmBqM"
 		}
 	],
 	"679335832305401856": [
@@ -77,6 +49,30 @@
 		{
 			"tooltip": "bock auf 240km radtour?",
 			"badge": "https://kappa.lol/UU7ley"
+		}
+	],
+	"1156652268947525662": [
+		{
+			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
+			"badge": "https://kappa.lol/xtmBqM"
+		}
+	],
+	"679326075876278285": [
+		{
+			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
+			"badge": "https://kappa.lol/xtmBqM"
+		}
+	],
+	"1093444260491165777": [
+		{
+			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
+			"badge": "https://kappa.lol/xtmBqM"
+		}
+	],
+	"773166395147157504": [
+		{
+			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
+			"badge": "https://kappa.lol/xtmBqM"
 		}
 	]
 }
