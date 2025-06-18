@@ -6,11 +6,11 @@
 		},
 		{
 			"tooltip": "why are you stalking?",
-			"badge": "sus.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/sus.webp"
 		},
 		{
 			"tooltip": "read if gay",
-			"badge": "kiss.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/kiss.webp"
 		}
 	],
 	"893792975761584139": [
@@ -20,19 +20,19 @@
 		},
 		{
 			"tooltip": "der zweite schluck war mit bier geschmickt",
-			"badge": "cheers.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/cheers.webp"
 		},
 		{
 			"tooltip": "sodla hodla fickla",
-			"badge": "dead.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/dead.webp"
 		},
 		{
 			"tooltip": "kb auf alles bin aber trotzdem da weil baum",
-			"badge": "tree.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/tree.webp"
 		},
 		{
 			"tooltip": "andi drück alt + f4.... hält r gedrückt",
-			"badge": "dead_2.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/dead_2.webp"
 		}
 	],
 	"1065030118491308082": [
@@ -42,41 +42,41 @@
 		},
 		{
 			"tooltip": "Hartz IV Lampe",
-			"badge": "light.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/light.webp"
 		}
 	],
 	"679335832305401856": [
 		{
 			"tooltip": "tschazz lofti = jazz lofi",
-			"badge": "music.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/music.webp"
 		},
 		{
 			"tooltip": "bock auf 240km radtour?",
-			"badge": "bike.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/bike.webp"
 		}
 	],
 	"1156652268947525662": [
 		{
 			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "zombie.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/zombie.webp"
 		}
 	],
 	"679326075876278285": [
 		{
 			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "zombie.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/zombie.webp"
 		}
 	],
 	"1093444260491165777": [
 		{
 			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "zombie.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/zombie.webp"
 		}
 	],
 	"773166395147157504": [
 		{
 			"tooltip": "toter account, hat aber immernoch ein badge was du nicht hast.",
-			"badge": "zombie.webp"
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/zombie.webp"
 		}
 	]
 }
