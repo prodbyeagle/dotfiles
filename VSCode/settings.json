@@ -1,261 +1,267 @@
 //! @prodbyeagle Config | 12.02.2025 - 14:39 |
-//! Update | 28.04.2025 - 01:46
+//! Update | 24.06.2025 - 03:15
 
 {
-  //? ================================
-  //? Workbench Settings
-  //? ================================
-  "workbench.tree.indent": 4,
-  "workbench.tips.enabled": false,
-  "workbench.startupEditor": "none",
-  "workbench.editor.showTabs": "none",
-  "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "right",
-  "workbench.list.smoothScrolling": true,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.iconTheme": "catppuccin-mocha",
-  "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.renderIndentGuides": "none",
-  "workbench.colorTheme": "Vesper",
-  "workbench.editor.enablePreview": false,
-  "workbench.productIconTheme": "bongocat",
-  "workbench.panel.showLabels": false,
-  "workbench.editor.editorActionsLocation": "hidden",
-  "workbench.layoutControl.enabled": false,
-  "workbench.colorCustomizations": {
-    "scrollbar.shadow": "#00000000"
-  },
+	//? ================================
+	//? Workbench Settings
+	//? ================================
+	"workbench.tree.indent": 12,
+	"workbench.tips.enabled": false,
+	"workbench.startupEditor": "none",
+	"workbench.editor.showTabs": "none",
+	"workbench.settings.editor": "json",
+	"workbench.sideBar.location": "right",
+	"workbench.list.smoothScrolling": true,
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.iconTheme": "catppuccin-mocha",
+	"workbench.tree.enableStickyScroll": false,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.colorTheme": "Vesper",
+	"workbench.editor.enablePreview": false,
+	"workbench.panel.showLabels": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.layoutControl.enabled": false,
+	"workbench.colorCustomizations": {
+		"scrollbar.shadow": "#00000000"
+	},
 
-  //? ================================
-  //? Window Settings
-  //? ================================
-  "window.titleBarStyle": "custom",
-  "window.confirmSaveUntitledWorkspace": false,
-  "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
-  "window.title": "${dirty}${activeEditorShort} ・ ${activeRepositoryName}",
-  "window.dialogStyle": "native",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
-  "editor.scrollBeyondLastLine": false,
-  "editor.mouseWheelScrollSensitivity": 3,
-  "editor.fastScrollSensitivity": 6,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontLigatures": true,
-  "editor.smoothScrolling": true,
-  "editor.unicodeHighlight.nonBasicASCII": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.stickyScroll.enabled": false,
-  "editor.fontSize": 16,
-  "editor.lineHeight": 28,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.inlineSuggest.syntaxHighlightingEnabled": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.fontFamily": "Geist Mono",
-  "editor.inlayHints.fontFamily": "Geist Mono",
-  "editor.inlineSuggest.fontFamily": "Geist Mono",
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.size": "fit",
-  "editor.minimap.showSlider": "always",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "wordWrapColumn",
-  "editor.codeLensFontSize": 12,
-  "editor.codeLensFontFamily": "Geist Mono",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.verticalScrollbarSize": 0,
+	//? ================================
+	//? Window Settings
+	//? ================================
+	"window.titleBarStyle": "custom",
+	"window.confirmSaveUntitledWorkspace": false,
+	"window.commandCenter": false,
+	"window.title": "${dirty}${activeEditorShort} ・ ${activeRepositoryName}",
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.scrollBeyondLastLine": false,
+	"editor.mouseWheelScrollSensitivity": 2,
+	"editor.fastScrollSensitivity": 4,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.fontLigatures": true,
+	"editor.smoothScrolling": true,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.stickyScroll.enabled": false,
+	"editor.fontSize": 16,
+	"editor.lineHeight": 32,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.inlineSuggest.syntaxHighlightingEnabled": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.fontFamily": "Geist Mono",
+	"editor.inlayHints.fontFamily": "Geist Mono",
+	"editor.inlineSuggest.fontFamily": "Geist Mono",
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.size": "fit",
+	"editor.minimap.showSlider": "always",
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.codeLensFontSize": 12,
+	"editor.codeLensFontFamily": "Geist Mono",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
 
-  //? ================================
-  //? Diff Editor Settings
-  //? ================================
-  "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.renderSideBySide": false,
-  "diffEditor.experimental.showMoves": true,
+	//? ================================
+	//? Diff Editor Settings
+	//? ================================
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.renderSideBySide": false,
+	"diffEditor.experimental.showMoves": true,
 
-  //? ================================
-  //? Terminal Settings
-  //? ================================
-  "terminal.integrated.stickyScroll.enabled": false,
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "terminal.integrated.fontFamily": "Geist Mono",
-  "terminal.integrated.fontSize": 14,
+	//? ================================
+	//? Terminal Settings
+	//? ================================
+	"terminal.integrated.stickyScroll.enabled": false,
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
+	"terminal.integrated.fontFamily": "Geist Mono",
+	"terminal.integrated.fontSize": 14,
 
-  //? ================================
-  //? Git Settings
-  //? ================================
-  "git.enableSmartCommit": false,
-  "git.confirmSync": false,
-  "git.branchProtectionPrompt": "alwaysCommit",
-  "git.autofetch": "all",
+	//? ================================
+	//? Git Settings
+	//? ================================
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.branchProtectionPrompt": "alwaysCommit",
+	"git.autofetch": "all",
 
-  //? ================================
-  //? Explorer Settings
-  //? ================================
-  "explorer.confirmDelete": false,
-  "explorer.confirmPasteNative": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": false,
-  "explorer.decorations.colors": false,
+	//? ================================
+	//? Explorer Settings
+	//? ================================
+	"explorer.confirmDelete": false,
+	"explorer.confirmPasteNative": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"explorer.decorations.colors": false,
 
-  //? ================================
-  //? Files Settings
-  //? ================================
-  "files.exclude": {
-    "**/.git": true,
-    "**/.vercel": true,
-    "**/.idea": true,
-    "**/.venv": true,
-    "**/node_modules": true,
-    "**/.next": true,
-    "**/.husky": true,
-    "**/drizzle": true,
-    "**/package-lock.json": true,
-    "**/pnpm-lock.yaml": true,
-    "**/next-env.d.ts": true,
-    "**/postcss.config.cjs": true,
-    "**/postcss.config.mjs": true,
-    "**/eslint.config.mjs": false,
-    "**/.env.example": true
-  },
-  "files.autoSave": "afterDelay",
+	//? ================================
+	//? Files Settings
+	//? ================================
+	"files.exclude": {
+		"**/.git": true,
+		"**/.vercel": true,
+		"**/.idea": true,
+		"**/.venv": true,
+		"**/node_modules": true,
+		"**/.next": true,
+		"**/.husky": true,
+		"**/drizzle": true,
+		"**/package-lock.json": true,
+		"**/pnpm-lock.yaml": true,
+		"**/next-env.d.ts": true,
+		"**/postcss.config.cjs": true,
+		"**/postcss.config.mjs": true,
+		"**/eslint.config.mjs": false,
+		"**/.env.example": true
+	},
+	"files.autoSave": "afterDelay",
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
 
-  //? ================================
-  //? JavaScript / TypeScript Settings
-  //? ================================
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[tailwindcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[powershell]": {
-    "editor.defaultFormatter": "ms-vscode.powershell"
-  },
+	//? ================================
+	//? JavaScript / TypeScript Settings
+	//? ================================
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[tailwindcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[powershell]": {
+		"editor.defaultFormatter": "ms-vscode.powershell"
+	},
 
-  //? ================================
-  //? Prettier Settings
-  //? ================================
-  "prettier.tabWidth": 4,
-  "prettier.bracketSameLine": true,
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.trailingComma": "es5",
-  "prettier.useTabs": true,
-  "prettier.bracketSpacing": true,
+	//? ================================
+	//? Prettier Settings
+	//? ================================
+	"prettier.tabWidth": 4,
+	"prettier.bracketSameLine": true,
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"prettier.bracketSpacing": true,
 
-  //? ================================
-  //? APC Settings (currently dead)
-  //? ================================
-  // "apc.imports": [
-  //   {
-  //     "rel": "stylesheet",
-  //     "href": "https://fonts.googleapis.com/css?family=Geist"
-  //   }
-  // ],
-  // "apc.menubar.compact": true,
-  // "apc.statusBar": {
-  //   "position": "editor-top",
-  //   "height": 28,
-  //   "fontSize": 12
-  // },
-  // "apc.stylesheet": {
-  //   ".sidebar > .composite": "height: 12px !important",
-  //   ".title-label": "display: block !important",
-  //   ".title-actions": "display: block !important",
-  //   ".inline-tabs-placeholder": "display: none !important"
-  // },
-  // "apc.font.family": "Geist",
-  // "apc.monospace.font.family": "Geist Mono",
+	//? ================================
+	//? APC Settings (currently dead)
+	//? ================================
+	// "apc.imports": [
+	//   {
+	//     "rel": "stylesheet",
+	//     "href": "https://fonts.googleapis.com/css?family=Geist"
+	//   }
+	// ],
+	// "apc.menubar.compact": true,
+	// "apc.statusBar": {
+	//   "position": "editor-top",
+	//   "height": 28,
+	//   "fontSize": 12
+	// },
+	// "apc.stylesheet": {
+	//   ".sidebar > .composite": "height: 12px !important",
+	//   ".title-label": "display: block !important",
+	//   ".title-actions": "display: block !important",
+	//   ".inline-tabs-placeholder": "display: none !important"
+	// },
+	// "apc.font.family": "Geist",
+	// "apc.monospace.font.family": "Geist Mono",
 
-  //? ================================
-  //? VSCord Settings
-  //? ================================
-  "vscord.status.details.text.notInFile": "・Floating in the Void..",
-  "vscord.status.details.text.editing": "・{workspace}",
-  "vscord.status.details.text.viewing": "・Crashing out in {workspace}",
-  "vscord.status.state.text.editing": "・{file_name}{file_extension}",
-  "vscord.status.state.text.viewing": "・{file_name}{file_extension}",
-  "vscord.app.name": "Custom",
-  "vscord.app.id": "1257116551069564960",
-  "vscord.status.problems.enabled": true,
-  "vscord.status.image.small.notInFile.text": "😴 Snoozin...",
-  "vscord.status.idle.timeout": 900,
+	//? ================================
+	//? VSCord Settings
+	//? ================================
+	"vscord.status.details.text.notInFile": "・Floating in the Void..",
+	"vscord.status.details.text.editing": "・{workspace}",
+	"vscord.status.details.text.viewing": "・Crashing out in {workspace}",
+	"vscord.status.state.text.editing": "・{file_name}{file_extension}",
+	"vscord.status.state.text.viewing": "・{file_name}{file_extension}",
+	"vscord.app.name": "Custom",
+	"vscord.app.id": "1257116551069564960",
+	"vscord.status.problems.enabled": true,
+	"vscord.status.image.small.notInFile.text": "😴 Snoozin...",
+	"vscord.status.idle.timeout": 900,
 
-  //? ================================
-  //? Draw Settings
-  //? ================================
-  "draw.folder.structure.exclude": [
-    "**/node_modules",
-    "**/.git",
-    "**/.idea",
-    "**/.vercel",
-    "**/.next",
-    "**/dist",
-    "**/.venv",
-    "**/target"
-  ],
-  "draw.folder.structure.style": "EmojiMinimalist",
+	//? ================================
+	//? Draw Settings
+	//? ================================
+	"draw.folder.structure.exclude": [
+		"**/node_modules",
+		"**/.git",
+		"**/.idea",
+		"**/.vercel",
+		"**/.next",
+		"**/dist",
+		"**/.venv",
+		"**/target"
+	],
+	"draw.folder.structure.style": "EmojiMinimalist",
 
-  //? ================================
-  //? Colorize Settings
-  //? ================================
-  "colorize.include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.css",
-    "**/*.scss",
-    "**/*.sass",
-    "**/*.less",
-    "**/*.styl"
-  ],
+	//? ================================
+	//? Colorize Settings
+	//? ================================
+	"colorize.include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.less",
+		"**/*.styl"
+	],
 
-  //? ================================
-  //? Error Lens Settings
-  //? ================================
-  "errorLens.removeLinebreaks": true,
-  "errorLens.gutterIconsEnabled": false,
-  "errorLens.messageMaxChars": 100,
-  "errorLens.fontStyleItalic": true,
-  "errorLens.decorations": {
-    "errorMessage": {
-      "textDecoration": ";border:1.2px dashed #e4545470;text-shadow:1px 1px 2px #e4545470;border-radius:0.4em;padding:0 0.5ch;"
-    }
-  },
+	//? ================================
+	//? Error Lens Settings
+	//? ================================
+	"errorLens.removeLinebreaks": true,
+	"errorLens.gutterIconsEnabled": false,
+	"errorLens.messageMaxChars": 100,
+	"errorLens.fontStyleItalic": true,
+	"errorLens.decorations": {
+		"errorMessage": {
+			"textDecoration": ";border:1.2px dashed #e4545470;text-shadow:1px 1px 2px #e4545470;border-radius:0.4em;padding:0 0.5ch;"
+		}
+	},
 
-  //? ================================
-  //? Other Settings
-  //? ================================
-  "update.mode": "manual",
-  "security.workspace.trust.untrustedFiles": "open",
-  "breadcrumbs.enabled": false,
-  "editor.lineNumbers": "off",
-  "diffEditor.maxComputationTime": 0,
-  "inlineChat.lineEmptyHint": true,
-  "terminal.integrated.suggest.enabled": true
+	//? ================================
+	//? Other Settings
+	//? ================================
+	"update.mode": "manual",
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.lineNumbers": "off",
+	"diffEditor.maxComputationTime": 0,
+	"inlineChat.lineEmptyHint": true,
+	"terminal.integrated.suggest.enabled": true,
+	"chat.commandCenter.enabled": false,
+	"window.menuBarVisibility": "compact",
+	"workbench.statusBar.visible": false,
+	"settingsSync.ignoredExtensions": ["github.copilot"],
+	"[lua]": {
+		"editor.defaultFormatter": "sumneko.lua"
+	}
 }
