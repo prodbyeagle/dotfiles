@@ -9,6 +9,10 @@
 			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/sus.webp"
 		},
 		{
+			"tooltip": ".lounge",
+			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/lounge.webp"
+		},
+		{
 			"tooltip": "read if gay",
 			"badge": "https://raw.githubusercontent.com/prodbyeagle/dotfiles/856b2f0f6f41680a06f7af78b3c11c83c57218aa/Vencord/eagleCord/badges/kiss.webp"
 		}
